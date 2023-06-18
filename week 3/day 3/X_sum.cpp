@@ -51,6 +51,7 @@ long long solve()
             }
         }
         cout<<max_move<<endl;
+        return 0;
 }
 
 int main()
