@@ -1,0 +1,1 @@
+{"name":"Local: B_lost_permutation","url":"d:\\new\\week 3\\day 6\\B_lost_permutation.cpp","tests":[{"id":1687441662701,"input":"5\n3 13\n3 1 4\n1 1\n1\n3 3\n1 4 2\n2 1\n4 3\n5 6\n1 2 3 4 5","output":"YES\nNO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\new\\week 3\\day 6\\B_lost_permutation.cpp","group":"local","local":true}
