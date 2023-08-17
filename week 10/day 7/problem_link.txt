@@ -1,0 +1,4 @@
+link: https://codeforces.com/problemset/problem/1814/A
+link: https://codeforces.com/problemset/problem/1478/A
+link: https://codeforces.com/problemset/problem/1713/B
+link: https://codeforces.com/problemset/problem/1857/D
