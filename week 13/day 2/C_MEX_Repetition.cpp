@@ -10,6 +10,7 @@ int main()
     int t;  cin>>t;
     while(t--){
         ll n,k;    cin>>n>>k;
+        k=n%k+1;
         vector<ll>a(n);
         vector<bool>vis(n+1,0);
         for(int i=0;i<n;i++){
