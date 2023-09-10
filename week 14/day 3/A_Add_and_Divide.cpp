@@ -15,17 +15,21 @@ typedef pair<int,int> pii;
 
 void TEST_CASES()
 {
-    ll a,b;
+    ll a,b,c,cnt=0,mn=1e9;
     cin>>a>>b;
-
-    int cn=0;
-    while(a!=0)
-    {
-        b++;
-        cn++;
-        a=floor(a/b);
+    for(int i=0;i<100;i++,b++){
+        cnt=0;
+        c=a;
+        if(b==1){
+            continue;
+        }
+        while (c){
+            c/=b;
+            cnt++;
+        }
+        mn=min(mn,cnt+i);
     }
-    cout<<cn<<endl;
+    cout<<mn<<endl;
 }
 
 int32_t main()
